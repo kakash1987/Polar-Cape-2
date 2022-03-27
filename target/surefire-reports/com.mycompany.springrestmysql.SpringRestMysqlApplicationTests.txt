@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.springrestmysql.SpringRestMysqlApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.514 s <<< FAILURE! - in com.mycompany.springrestmysql.SpringRestMysqlApplicationTests
+contextLoads  Time elapsed: 0.251 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'loadUserDatabase' defined in file [C:\Users\Viktor\Desktop\springboot-rest-mysql\target\classes\com\mycompany\springrestmysql\load\LoadUserDatabase.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mycompany.springrestmysql.load.LoadUserDatabase$$EnhancerBySpringCGLIB$$dafbcc8a]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [com.mycompany.springrestmysql.load.LoadUserDatabase$$EnhancerBySpringCGLIB$$dafbcc8a]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+Caused by: java.lang.Error: 
+Unresolved compilation problem: 
+	log cannot be resolved
+
+
